@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 324a0879f4832ab43bc1d466b1e6770e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BurnoffShader: {fileID: 2100000, guid: b0dd0bb3eaa416749ab5e0f26bf66f0c, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
