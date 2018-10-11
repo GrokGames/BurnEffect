@@ -10,10 +10,10 @@ using System.Linq;
 namespace UI
 {
     /// <summary>
-    /// BurnoffEffect
+    /// BurnEffect
     /// </summary>
-    [AddComponentMenu( "UI/BurnoffEffect" )]
-    public class BurnoffEffect : MonoBehaviour
+    [AddComponentMenu( "UI/BurnEffect" )]
+    public class BurnEffect : MonoBehaviour
     {
         [SerializeField]
         private Material BurnoffShader;
@@ -38,10 +38,10 @@ namespace UI
 
         private void Start()
         {
-            BeginEffect();
+            Begin();
         }
 
-        public void BeginEffect( UnityAction callbackFunction = null )
+        public void Begin( UnityAction callbackFunction = null )
         {
             if( EffectRoutine == null )
             {
